@@ -9,7 +9,8 @@ using System.Threading.Tasks;
 namespace ProniaSimulaiton.Areas.Admin.Controllers
 {
     [Area("Admin")]
-    [Authorize(Roles = "Admin")]
+    [Authorize(Roles = "Admin,SuperAdmin")]
+
 
     public class ProductController : Controller
     {
@@ -50,7 +51,7 @@ namespace ProniaSimulaiton.Areas.Admin.Controllers
                 Rate = vM.Rate,
             };
             await _context.Products.AddAsync(product);
-            await _context.SaveChangesAsync();
+            await _context.SaveChangesAsync();                                                             
             return RedirectToAction("Index");
         }
         public IActionResult Update(int id)

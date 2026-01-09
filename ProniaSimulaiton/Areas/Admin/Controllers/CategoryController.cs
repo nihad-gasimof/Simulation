@@ -7,7 +7,8 @@ namespace ProniaSimulaiton.Areas.Admin.Controllers
 {
 
     [Area("Admin")]
-    [Authorize(Roles="Admin")]
+    [Authorize(Roles = "Admin,SuperAdmin")]
+
     public class CategoryController : Controller
     {
       private readonly  ApplicationDbContext _context;
@@ -58,6 +59,14 @@ namespace ProniaSimulaiton.Areas.Admin.Controllers
             var existcategory = _context.Categories.FirstOrDefault(x => x.Id == category.Id);
                 existcategory.Name = category.Name;
             await _context.SaveChangesAsync();
+            return RedirectToAction("Index");
+        }
+        [HttpPost]
+        public IActionResult Delete(int id)
+        {
+            var categorie = _context.Categories.FirstOrDefault(x=>x.Id == id);
+        _context.Categories.Remove(categorie);
+            _context.SaveChanges();
             return RedirectToAction("Index");
         }
     }

@@ -248,3 +248,4 @@ C:\Users\II novbe\OneDrive\Desktop\ProniaSimulaiton\ProniaSimulaiton\bin\Debug\n
 C:\Users\II novbe\OneDrive\Desktop\ProniaSimulaiton\ProniaSimulaiton\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
 C:\Users\II novbe\OneDrive\Desktop\ProniaSimulaiton\ProniaSimulaiton\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
 C:\Users\II novbe\OneDrive\Desktop\ProniaSimulaiton\ProniaSimulaiton\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\II novbe\OneDrive\Desktop\ProniaSimulaiton\ProniaSimulaiton\obj\Debug\net8.0\ProniaSimulaiton.sourcelink.json

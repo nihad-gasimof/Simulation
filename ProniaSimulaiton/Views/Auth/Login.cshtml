@@ -5,6 +5,8 @@
     <div class="login-form">
         <h4 class="login-title">Login</h4>
         <div class="row">
+            <input type="hidden" name="ReturnUrl"  value="@Context.Request.Query["ReturnUrl"]" />
+
             <div class="col-lg-12">
                 <label>Email Address*</label>
                 <input type="email" asp-for="Email" placeholder="Email Address" />

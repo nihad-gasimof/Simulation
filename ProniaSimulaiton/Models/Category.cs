@@ -7,6 +7,6 @@ namespace ProniaSimulaiton.Models
     {
         [Required(ErrorMessage ="Adin olmasi mecburidir")]
         public string  Name{ get; set; }
-       public List<Product> Products { get; set; }
+       public List<Product>? Products { get; set; }
     }
 }

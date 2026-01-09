@@ -24,7 +24,7 @@ namespace ProniaSimulaiton.Controllers
             return View();
         }
         [HttpPost]
-        public async Task<IActionResult> Login(LoginVM vm)
+        public async Task<IActionResult> Login(LoginVM vm, string? ReturnUrl)
         {
             if (!ModelState.IsValid)
             {
@@ -33,7 +33,15 @@ namespace ProniaSimulaiton.Controllers
 
             var user = await _usermanager.FindByEmailAsync(vm.Email);
             var result = await _signInManager.PasswordSignInAsync(user, vm.Password, false, false);
-            return RedirectToAction("Index","Home");
+            if (!result.Succeeded)
+            {
+                ModelState.AddModelError("", "Istifadeci adi yaxud parol yanlisdir");
+            }
+            if (!String.IsNullOrEmpty(ReturnUrl))
+            {
+                return Redirect(ReturnUrl);
+            }
+            return RedirectToAction("Index", "Home");
         }
         public IActionResult Register()
         {
