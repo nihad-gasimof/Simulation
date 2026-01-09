@@ -1,0 +1,37 @@
+﻿@using ProniaSimulaiton.ViewModels.Product
+@model CreateProductVM
+<div class="container">
+<form asp-action="Create" asp-controller="Product" >
+
+    <div class="form-group">
+        <label asp-for="Name" >Name</label>
+            <input asp-for="Name" type="text" class="form-control" placeholder="Enter Name" id="email">
+            <span asp-validation-for="Name"  class="text-danger"></span>
+    </div>
+    <div class="form-group">
+            <label asp-for="Price">Price</label>
+            <input asp-for="Price" type="text" class="form-control" placeholder="Enter Price" id="pwd">
+            <span asp-validation-for="Price" class="text-danger"></span>
+
+    </div>
+    <div class="form-group">
+            <label asp-for="ImgUrl" for="pwd">ImgUrl</label>
+            <input asp-for="ImgUrl" type="text" class="form-control" placeholder="Enter ImgUrl" id="pwd">
+            <span asp-validation-for="ImgUrl" class="text-danger"></span>
+
+    </div>
+    <div class="form-group">
+            <label asp-for="Rate" for="pwd">Rate</label>
+            <input asp-for="Rate" type="text" class="form-control" placeholder="Enter Rate" id="pwd">
+            <span asp-validation-for="Rate" class="text-danger"></span>
+
+    </div>
+        <select asp-for="CategoryId" asp-items="@(new SelectList(ViewBag.Categories,"Id","Name"))">
+            <option value="" selected>-- Select Category --</option>
+
+</select>
+        <span asp-validation-for="CategoryId" class="text-danger"></span>
+
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+</div>

@@ -1,0 +1,85 @@
+﻿@using ProniaSimulaiton.Models
+@model List<Category>
+@{
+    int counter = 1;
+}
+<div class="container-fluid">
+
+    <!-- Page Heading -->
+    <h1 class="h3 mb-2 text-gray-800">Tables</h1>
+    <p class="mb-4">
+        DataTables is a third party plugin that is used to generate the demo table below.
+        For more information about DataTables, please visit the <a target="_blank"
+                                                                   href="https://datatables.net">official DataTables documentation</a>.
+    </p>
+
+    <!-- DataTales Example -->
+    <div class="card shadow mb-4">
+        <div class="card-header py-3">
+            <h6 class="m-0 font-weight-bold text-primary">Categories </h6>
+            @if (Model != null)
+            {
+                <a class="btn btn-primary" asp-action="Create" asp-controller="Category" asp-area="Admin">Category Yarat</a>
+
+            }
+        </div>
+        <div class="card-body">
+            <div class="table-responsive">
+                <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                    @if (Model != null)
+                    {
+                        <thead>
+
+                            <tr>
+                                <th>Sira</th>
+                                <th>Id</th>
+                                <th>Name</th>
+                                <th>Delete</th>
+                                <th>Edit</th>
+
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            @foreach (var p in Model)
+                            {
+                                <tr>
+                                    <td>@counter</td>
+                                    <td>@p.Id</td>
+                                    <td>@p.Name</td>
+                                    <td>
+                                        <form asp-action="Delete" asp-controller="Product" asp-route-id="@p.Id">
+                                            <button class="btn btn-danger" type="submit">Delete</button>
+                                        </form>
+                                    </td>
+                                    <td>
+                                        <a class="btn btn-primary" asp-action="Update" asp-route-id="@p.Id">Update</a>
+                                    </td>
+                                </tr>
+                                counter++;
+                            }
+                        </tbody>
+                    }
+                    else
+                    {
+                        <h1 class="text-primary">Heleki Categorias yoxdur</h1>
+                        <p>Eger isteseniz asagidaki buttonla yaradin</p>
+                        <a class="btn btn-primary" asp-action="Create" asp-controller="Category" asp-area="Admin">Category Yarat</a>
+
+                    }
+                </table>
+            </div>
+        </div>
+    </div>
+
+</div>
+<!-- /.container-fluid -->
+</div>
+<!-- End of Main Content -->
+<!-- Footer -->
+<footer class="sticky-footer bg-white">
+    <div class="container my-auto">
+        <div class="copyright text-center my-auto">
+            <span>Copyright &copy; Your Website 2020</span>
+        </div>
+    </div>

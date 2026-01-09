@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\II novbe\\OneDrive\\Desktop\\ProniaSimulaiton\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6C2FA801-D63F-4D58-84B4-1901E020FD44}|ProniaSimulaiton\\ProniaSimulaiton.csproj|c:\\users\\ii novbe\\onedrive\\desktop\\proniasimulaiton\\proniasimulaiton\\areas\\admin\\views\\product\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6C2FA801-D63F-4D58-84B4-1901E020FD44}|ProniaSimulaiton\\ProniaSimulaiton.csproj|solutionrelative:proniasimulaiton\\areas\\admin\\views\\product\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C2FA801-D63F-4D58-84B4-1901E020FD44}|ProniaSimulaiton\\ProniaSimulaiton.csproj|c:\\users\\ii novbe\\onedrive\\desktop\\proniasimulaiton\\proniasimulaiton\\areas\\admin\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C2FA801-D63F-4D58-84B4-1901E020FD44}|ProniaSimulaiton\\ProniaSimulaiton.csproj|solutionrelative:proniasimulaiton\\areas\\admin\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C2FA801-D63F-4D58-84B4-1901E020FD44}|ProniaSimulaiton\\ProniaSimulaiton.csproj|c:\\users\\ii novbe\\onedrive\\desktop\\proniasimulaiton\\proniasimulaiton\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C2FA801-D63F-4D58-84B4-1901E020FD44}|ProniaSimulaiton\\ProniaSimulaiton.csproj|solutionrelative:proniasimulaiton\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\II novbe\\OneDrive\\Desktop\\ProniaSimulaiton\\ProniaSimulaiton\\Areas\\Admin\\Views\\Product\\Create.cshtml",
+              "RelativeDocumentMoniker": "ProniaSimulaiton\\Areas\\Admin\\Views\\Product\\Create.cshtml",
+              "ToolTip": "C:\\Users\\II novbe\\OneDrive\\Desktop\\ProniaSimulaiton\\ProniaSimulaiton\\Areas\\Admin\\Views\\Product\\Create.cshtml",
+              "RelativeToolTip": "ProniaSimulaiton\\Areas\\Admin\\Views\\Product\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-09T11:22:17.462Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\II novbe\\OneDrive\\Desktop\\ProniaSimulaiton\\ProniaSimulaiton\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "ProniaSimulaiton\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\II novbe\\OneDrive\\Desktop\\ProniaSimulaiton\\ProniaSimulaiton\\Models\\Product.cs",
+              "RelativeToolTip": "ProniaSimulaiton\\Models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-09T11:19:47.256Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\II novbe\\OneDrive\\Desktop\\ProniaSimulaiton\\ProniaSimulaiton\\Areas\\Admin\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "ProniaSimulaiton\\Areas\\Admin\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\II novbe\\OneDrive\\Desktop\\ProniaSimulaiton\\ProniaSimulaiton\\Areas\\Admin\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "ProniaSimulaiton\\Areas\\Admin\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABYAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-09T11:17:48.712Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 1438,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{a80febb4-e7e0-4147-b476-21aaf2453969}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
